@@ -1,0 +1,60 @@
+.mainNav{
+    background-color: #eceff1;
+    width: 100%;
+}
+.mainNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainNav span{
+    width: 33.33%;
+}
+.logo{
+    width: 80px;
+}
+.mainNav > span:nth-child(2){
+    text-align: center;
+}
+.mainNav > span:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu, .search{
+    width: 30px;
+}
+.menu, .logo, .search, .loginBtn{
+    cursor: pointer;
+}
+.loginBtn{
+    background-color: #263238;
+    color: white;
+    font-weight: bold;
+    padding: 20px 30px;
+    transition: linear .4s;
+}
+
+.menu{
+    margin-left: 30px;
+}
+.loginBtn,.search{
+    margin-right: 30px;
+}
+
+@media only screen and (max-width:768px) {
+    .loginBtn{
+        display:none
+    }
+}
+
+.mainNav ul a:nth-child(1){
+    margin-right: auto;
+}
+.mainNav ul a:nth-child(2){
+    margin-right: auto;
+}
+.loginBtn:hover{
+    background-color: #607d8b;
+}

@@ -1,0 +1,57 @@
+
+.imageDiv{
+    margin: 10px 0;
+    position: relative;
+}
+.cardImg{
+    width: 100%;
+    transition: ease 1s;
+}
+
+.imageDiv:hover > #overlay{
+    height: 99%;
+    width: 100%;
+}
+
+#overlay{
+    position: absolute;
+    background-color: #263238;
+    transition: ease 1s;
+    height: 0%;
+    opacity: 0.5;
+    padding: 0;
+}
+
+#overlay > div > img{
+    height: 20px;
+    width: 20px;
+}
+
+.imageDiv:hover > #overlay > .addlogo,
+.imageDiv:hover > #overlay > .favoritelogo,
+.imageDiv:hover > #overlay > .downloadlogo{
+    display: flex;
+}
+
+.addlogo, .favoritelogo, .downloadlogo{
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    width: 50px;
+    height: 40px;
+}
+.addlogo{
+    top: 10px;
+    right: 20px;
+}
+.favoritelogo{
+    top: 10px;
+    right: 80px;
+}
+.downloadlogo{
+    bottom: 15px;
+    right: 20px;
+}

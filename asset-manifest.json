@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Infinity-Wallpapers/static/css/main.bbe18e00.chunk.css",
+    "main.css": "/Infinity-Wallpapers/static/css/main.e0cc39e5.chunk.css",
     "main.js": "/Infinity-Wallpapers/static/js/main.d55c5a38.chunk.js",
     "main.js.map": "/Infinity-Wallpapers/static/js/main.d55c5a38.chunk.js.map",
     "runtime-main.js": "/Infinity-Wallpapers/static/js/runtime-main.bf00d33e.js",
@@ -10,7 +10,7 @@
     "static/js/3.84bde604.chunk.js": "/Infinity-Wallpapers/static/js/3.84bde604.chunk.js",
     "static/js/3.84bde604.chunk.js.map": "/Infinity-Wallpapers/static/js/3.84bde604.chunk.js.map",
     "index.html": "/Infinity-Wallpapers/index.html",
-    "static/css/main.bbe18e00.chunk.css.map": "/Infinity-Wallpapers/static/css/main.bbe18e00.chunk.css.map",
+    "static/css/main.e0cc39e5.chunk.css.map": "/Infinity-Wallpapers/static/css/main.e0cc39e5.chunk.css.map",
     "static/js/2.dec2b418.chunk.js.LICENSE.txt": "/Infinity-Wallpapers/static/js/2.dec2b418.chunk.js.LICENSE.txt",
     "static/media/infinity-logo.eb8cd643.png": "/Infinity-Wallpapers/static/media/infinity-logo.eb8cd643.png",
     "static/media/loupe.c6544d31.png": "/Infinity-Wallpapers/static/media/loupe.c6544d31.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.bf00d33e.js",
     "static/js/2.dec2b418.chunk.js",
-    "static/css/main.bbe18e00.chunk.css",
+    "static/css/main.e0cc39e5.chunk.css",
     "static/js/main.d55c5a38.chunk.js"
   ]
 }
